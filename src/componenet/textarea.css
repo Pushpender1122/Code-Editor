@@ -1,0 +1,10 @@
+.margin-custom {
+    margin-right: 0.5rem;
+}
+
+#output {
+    width: 100%;
+    height: 35vh;
+    background-color: black;
+    border: 1px solid white;
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+}
+
+.navbar a {
+    text-decoration: none;
+}
