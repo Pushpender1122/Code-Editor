@@ -9,11 +9,11 @@ function Textarea() {
     const [csscontent, setCssContent] = useState('');
     const [jscontent, setjscontent] = useState('');
     const handleHtmlChange = (e) => {
-        console.log(csscontent);
+       
         setContent(e.target.value + `<style> ${csscontent} </style>` + `<script>${jscontent}</script>`)
     }
     const handleCssChange = (e) => {
-        console.log(e.target.value)
+    
         setCssContent(e.target.value);
         setContent(content + `<style>${e.target.value}</style>` + `<script>${jscontent}</script>`)
     }
